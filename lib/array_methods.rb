@@ -1,5 +1,7 @@
 famous_cats = ["lil' bub", "grumpy cat", "Maru"]
-def using_include(array, element = "Garfield")
+element = "Garfield"
+
+def using_include(array, element)
   array = famous_cats
 array.include?(element)
 end
