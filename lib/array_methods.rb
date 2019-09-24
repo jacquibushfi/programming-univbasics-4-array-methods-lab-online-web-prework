@@ -1,8 +1,7 @@
-famous_cats = ["lil' bub", "grumpy cat", "Maru"]
+array = ["lil' bub", "grumpy cat", "Maru"]
 element = "Garfield"
 
 def using_include(array, element)
-  array = famous_cats
 array.include?(element)
 end
 
